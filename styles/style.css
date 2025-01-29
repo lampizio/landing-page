@@ -96,3 +96,59 @@ a {
     font-size: 18px;
     color: var(--hero-secondary-color)
 }
+
+/* --- RANDOM-INFO-SECTION --- */
+
+.random-info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.random-info-section span:first-child {
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--info-header-text-color);
+
+    margin: 48px 0px;
+}
+
+/* --- RANDOM-INFO-CONTAINER --- */
+
+.random-info-container {
+    display: flex;
+    gap: 48px;
+
+    margin-bottom: 100px;
+}
+
+.random-info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 180px;
+}
+
+.random-info-item img {
+    border: 5px solid;
+    border-radius: 10px;
+    border-color: var(--button-color);
+
+
+    height: 180px;
+    max-width: 180px;
+}
+
+.random-info-item span {
+    text-align: center;
+    max-width: 200px;
+}
+
+
+/* --- QUOTE-SECTION --- */
+
+
+/* --- ACTION-SECTION --- */
+
+
+/* --- FOOTER --- */
