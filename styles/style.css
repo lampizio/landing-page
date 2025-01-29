@@ -183,5 +183,48 @@ a {
 
 /* --- ACTION-SECTION --- */
 
+.lighter {
+    font-weight: lighter;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--button-color);
+    border-radius: 5px;
+    padding: 50px;
+    width: 1000px;
+    height: 150px;
+}
+
+.action-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: var(--hero-main-color);
+    font-size: 18px;
+}
+
+.action-section input {
+    border: 2px solid var(--hero-main-color);
+    border-radius: 10px;
+    font-weight: 550;
+    font-size: 18px;
+    color: var(--hero-main-color);
+    padding: 8px 30px;
+    background-color: var(--button-color);
+}
 
 /* --- FOOTER --- */
