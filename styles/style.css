@@ -9,7 +9,7 @@
 :root {
     --header-footer-background-color: #1f2937;
     --hero-main-color: #f9faf8;
-    --hero-secondary-color: #e5e7eb;
+    --hero-secondary-color: rgb(138, 137, 137);
     --button-color: #3882f6;
     --info-header-text-color: #1f2937;
 }
@@ -141,12 +141,44 @@ a {
 
 .random-info-item span {
     text-align: center;
-    color: rgb(138, 137, 137);
+    color: var(--hero-secondary-color);
     font-size: 18px;
 }
 
-
 /* --- QUOTE-SECTION --- */
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px;
+    width: 830px;
+}
+
+.quote-text,
+.quote-sign {
+    color: var(--info-header-text-color);
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+
+}
+
+.quote-sign {
+    font-weight: 900;
+    font-size: 23px;
+    margin: 0px 32px;
+    align-self: flex-end;
+}
 
 
 /* --- ACTION-SECTION --- */
