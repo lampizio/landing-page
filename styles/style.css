@@ -9,7 +9,7 @@
 :root {
     --header-footer-background-color: #1f2937;
     --hero-main-color: #f9faf8;
-    --hero-secondary-color: hwb(230 90% 50%);
+    --hero-secondary-color: #e5e7eb;
     --button-color: #3882f6;
     --info-header-text-color: #1f2937;
 }
@@ -126,7 +126,7 @@ a {
     flex-direction: column;
     align-items: center;
     gap: 8px;
-    width: 180px;
+    width: 160px;
 }
 
 .random-info-item img {
@@ -135,13 +135,14 @@ a {
     border-color: var(--button-color);
 
 
-    height: 180px;
-    max-width: 180px;
+    height: 160px;
+    max-width: 160px;
 }
 
 .random-info-item span {
     text-align: center;
-    max-width: 200px;
+    color: rgb(138, 137, 137);
+    font-size: 18px;
 }
 
 
