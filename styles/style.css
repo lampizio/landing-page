@@ -82,7 +82,6 @@ a {
   flex-direction: column;
   justify-content: center;
   gap: 8px;
-  padding: 8px;
 }
 .info-title {
   font-size: 48px;
